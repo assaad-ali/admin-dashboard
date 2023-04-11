@@ -5,7 +5,7 @@ export const Topbar = () => {
     <div className='topbar'>
         <div className="topbar-wrapper">
             <div className="top-left">
-                Left
+                <span className="logo">Admin-Dashboard</span>
             </div>
             <div className="top-right">
                 Right
