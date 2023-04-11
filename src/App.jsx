@@ -1,7 +1,10 @@
+import {Topbar} from "./component/topbar/Topbar.jsx"
+
 function App() {
+
   return (
     <div className="App">
-    Hello World!
+    <Topbar/>
     </div>
   );
 }

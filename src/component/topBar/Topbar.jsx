@@ -1,9 +1,16 @@
 import './topbar.scss'
 
-const topbar = () => {
+export const Topbar = () => {
   return (
-    <div>topbar</div>
+    <div className='topbar'>
+        <div className="topbar-wrapper">
+            <div className="top-left">
+                Left
+            </div>
+            <div className="top-right">
+                Right
+            </div>
+        </div>
+    </div>
   )
 }
-
-export default topbar
