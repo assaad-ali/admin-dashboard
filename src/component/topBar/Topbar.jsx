@@ -22,6 +22,11 @@ export const Topbar = () => {
                 <div className="topbar-icon">
                     <SettingsIcon/>
                 </div>
+                <img 
+                    src="https://images.pexels.com/photos/12244376/pexels-photo-12244376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                    alt="" 
+                    className='profile'
+                />
             </div>
         </div>
     </div>
