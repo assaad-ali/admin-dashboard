@@ -17,6 +17,31 @@
         color: darkgreen;
         cursor: pointer;
     }
+    .top-right{
+        display: flex;
+        align-items: center;
 
+    }
+    .topbar-icon{
+        position: relative;
+        margin-right: 10px;
+        color: hsl(0, 0%, 33%);
+    }
 
+    .icon-badge{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+
+        top: -2px;
+        right: -5px;
+        color: white;
+        font-size: 12px;
+        border-radius: 50%;
+        background-color: red;
+
+    }
 }
