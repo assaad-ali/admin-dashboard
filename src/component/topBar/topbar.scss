@@ -4,7 +4,7 @@
     background-color: white;
     position: sticky;
     z-index: 9999;
-    background-color: hsla(120, 95%, 68%, 0.9);
+    background-color: hsla(0, 0%, 0%, 0.7);
 
     .topbar-wrapper{
         height: 100%;
@@ -16,7 +16,7 @@
         .logo{
             font-size: 30px;
             font-weight: 500;
-            color: darkgreen;
+            color: hsl(180, 100%, 97%);
             cursor: pointer;
         }
         .top-right{
@@ -27,7 +27,7 @@
         .topbar-icon{
             position: relative;
             margin-right: 10px;
-            color: hsl(0, 0%, 33%);
+            color: hsla(180, 100%, 97%, 0.8);
         }
     
         .icon-badge{

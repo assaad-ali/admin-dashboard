@@ -1,13 +1,13 @@
 .sidebar{
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: hsl(120, 95%, 99%);
+    background-color: hsl(0, 0%, 100%);
     position: sticky;
     top: 50px;
 
     .sidebar-wrapper{
         padding: 20px;
-        color: hsl(0, 0%, 33%);
+        color: hsl(0, 0%, 35%);
     }
 
     .sidebar-menu{
@@ -17,7 +17,7 @@
 
     .sidebar-title{
         font-size: 18px;
-        color: hsl(0, 0%, 55%);
+        color: hsl(0, 1%, 31%);
         font-weight: 700;
     }
     .sidebar-list{
@@ -31,9 +31,12 @@
         align-items: center;
         padding: 5px;
         cursor: pointer;
-
-
-
+        border-radius: 10px;
+    }
+    .sidebar-item.active,
+    .sidebar-item:hover {
+        background-color:  hsl(0, 0%, 50%);
+        color: azure;
     }
 
 }
