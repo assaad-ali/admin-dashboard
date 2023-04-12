@@ -4,7 +4,8 @@
     background-color: white;
     position: sticky;
     z-index: 9999;
-    background-color: hsla(0, 0%, 0%, 0.7);
+    background: linear-gradient(to bottom, hsla(0, 0%, 15%, 0.7) 0%, black 100%);
+    box-shadow: 0 4px 6px hsla(0, 0%, 50%, 0.3), 0 1px 3px hsla(0, 0%, 50%, 0.2);
 
     .topbar-wrapper{
         height: 100%;
