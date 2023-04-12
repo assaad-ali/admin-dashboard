@@ -1,73 +1,13 @@
 import {Topbar} from "./component/topbar/Topbar.jsx"
 import "./app.scss"
+import { Sidebar } from "./component/sidebar/Sidebar.jsx";
 
 function App() {
 
   return (
     <div className="App">
     <Topbar/>
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-
-        test <br />
-    test <br />
-        test <br />
-    test <br />
-    test <br />
-    test <br />
-
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-
-    test <br />
-    test <br />
-        test <br />
-    test <br />
-        test <br />
-    test <br />
-        test <br />
-    test <br />
-        test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-        test <br />
-    test <br />
-    test <br />
-    test <br />
+    <Sidebar/>
     </div>
   );
 }
