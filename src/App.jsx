@@ -7,7 +7,13 @@ function App() {
   return (
     <div className="App">
     <Topbar/>
-    <Sidebar/>
+    <div className="hero-container">
+      <Sidebar/>
+      <div className="info-container">
+        Info Container
+      </div>
+    </div>
+    
     </div>
   );
 }
