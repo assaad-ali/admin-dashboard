@@ -9,7 +9,7 @@ export const Featured = () => {
           <span className="title">Revenue</span>
           <div className="money-container">
             <span className="money">275000.00</span>
-            <span className="rate">+43000 <ArrowUpwardIcon/></span>
+            <span className="rate">+43000 <ArrowUpwardIcon className='icon'/></span>
           </div>
           <span className="item-sub">
             compared to last month
@@ -19,7 +19,7 @@ export const Featured = () => {
           <span className="title">Sales</span>
           <div className="money-container">
             <span className="money">275000.00</span>
-            <span className="rate">+43000 <ArrowUpwardIcon/></span>
+            <span className="rate">+43000 <ArrowUpwardIcon className='icon'/></span>
           </div>
           <span className="item-sub">
             compared to last month
@@ -29,7 +29,7 @@ export const Featured = () => {
           <span className="title">Cost</span>
           <div className="money-container">
             <span className="money">75000.00</span>
-            <span className="rate">-40000 <ArrowDownwardIcon/></span>
+            <span className="rate">-40000 <ArrowDownwardIcon className='icon negative'/></span>
           </div>
           <span className="item-sub">
             compared to last month

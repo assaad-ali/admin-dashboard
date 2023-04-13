@@ -15,6 +15,37 @@
         .title{
             font-size: 18px;
         }
+
+        .money-container{
+            margin: 10px 0px;
+            display: flex;
+            align-items: center ;
+        }
+
+        .money{
+            font-size: 25px;
+            font-weight: 550;
+        }
+
+        .rate{
+            margin-left: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .icon{
+            font-size: 18px;
+            margin-left: 15px;
+            color: hsl(120, 100%, 37%);
+        }
+
+        .icon.negative{
+            color: red;
+        }
+
+        .item-sub{
+            color: gray;
+        }
     
     }
 
