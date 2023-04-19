@@ -17,8 +17,8 @@ export const WidgetSm = () => {
                     <span className="widgetSm-job">Photographer</span>
                 </div>
                 <button className='visibility-button'>
-                    <VisibilityIcon/>
-                    Display Info
+                    <VisibilityIcon className="widgetSm-icon"/>
+                    View
                 </button>
             </li>
             <li className="widgetSm-list-item">
@@ -32,8 +32,8 @@ export const WidgetSm = () => {
                     <span className="widgetSm-job">Photographer</span>
                 </div>
                 <button className='visibility-button'>
-                    <VisibilityIcon/>
-                    Display Info
+                    <VisibilityIcon className="widgetSm-icon"/>
+                    View
                 </button>
             </li>
             <li className="widgetSm-list-item">
@@ -47,8 +47,8 @@ export const WidgetSm = () => {
                     <span className="widgetSm-job">Photographer</span>
                 </div>
                 <button className='visibility-button'>
-                    <VisibilityIcon/>
-                    Display Info
+                    <VisibilityIcon className="widgetSm-icon"/>
+                    View
                 </button>
             </li>
             <li className="widgetSm-list-item">
@@ -62,8 +62,8 @@ export const WidgetSm = () => {
                     <span className="widgetSm-job">Photographer</span>
                 </div>
                 <button className='visibility-button'>
-                    <VisibilityIcon/>
-                    Display Info
+                    <VisibilityIcon className="widgetSm-icon"/>
+                    View
                 </button>
             </li>   
         </ul>
