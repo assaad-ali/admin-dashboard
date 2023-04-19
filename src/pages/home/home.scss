@@ -1,3 +1,9 @@
 .home{
     flex: 5;
+
+    .home-widget{
+        display: flex;
+        margin: 10px;
+    }
 }
+
