@@ -20,25 +20,25 @@ export const WidgetLg = () => {
             <tr className="widgetLg-tr">
                 <td className="widgetLg-user">Sabrina Tyson</td>
                 <td className="widgetLg-date">19/5/2023</td>
-                <td className="widgetLg-amount">15$</td>
+                <td className="widgetLg-amount">15.00$</td>
                 <td className="widgetLg-status"><Button type="Pending"/></td>
             </tr>
             <tr className="widgetLg-tr">
                 <td className="widgetLg-user">May Hayek</td>
                 <td className="widgetLg-date">19/5/2023</td>
-                <td className="widgetLg-amount">15$</td>
+                <td className="widgetLg-amount">15.00$</td>
                 <td className="widgetLg-status"><Button type="Approved"/></td>
             </tr>
             <tr className="widgetLg-tr">
                 <td className="widgetLg-user">Nancy Smeha</td>
                 <td className="widgetLg-date">19/5/2023</td>
-                <td className="widgetLg-amount">15$</td>
+                <td className="widgetLg-amount">15.00$</td>
                 <td className="widgetLg-status"><Button type="Declined"/></td>
             </tr>
             <tr className="widgetLg-tr">
                 <td className="widgetLg-user">Carol Ajami</td>
                 <td className="widgetLg-date">19/5/2023</td>
-                <td className="widgetLg-amount">15$</td>
+                <td className="widgetLg-amount">15.00$</td>
                 <td className="widgetLg-status"><Button type="Pending"/></td>
             </tr>
 
