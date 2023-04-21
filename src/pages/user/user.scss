@@ -19,3 +19,22 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+.user-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.user-display{
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px hsla(0, 0%, 50%, 0.3), 0 1px 3px hsla(0, 0%, 50%, 0.2);
+}
+
+.user-update{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 4px 6px hsla(0, 0%, 50%, 0.3), 0 1px 3px hsla(0, 0%, 50%, 0.2);
+
+}
