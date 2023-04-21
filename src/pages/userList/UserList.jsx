@@ -1,11 +1,12 @@
 import './userList.scss'
 import { DataGrid } from '@mui/x-data-grid';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
 export const UserList = () => {
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 90 },
-        { field: 'user', headerName: 'User', width: 220, renderCell:(params)=>{
+        {   field: 'id', headerName: 'ID', width: 90 },
+        {   field: 'user', headerName: 'User', width: 220, renderCell:(params)=>{
             return (
                 <div className='userList-user'>
                     <img 
@@ -17,17 +18,30 @@ export const UserList = () => {
                 </div>
             )
         }},
-        { field: 'email', headerName: 'Email', width: 220 },
+        {   field: 'email', headerName: 'Email', width: 220 },
         {
-          field: 'status',
+            field: 'status',
           headerName: 'Status',
           width: 160,
         },
         {
-          field: 'transaction',
-          headerName: 'Transactions',
-          width: 160,
+            field: 'transaction',
+            headerName: 'Transactions',
+            width: 160,
         },
+        {
+            field: 'action',
+            headerName: 'Action',
+            width: 160,
+            renderCell: (params)=>{
+                return (
+                    <>
+                        <button className="userList-edit">Edit</button>
+                        <DeleteOutlineIcon className='userList-delete'/>
+                    </>
+                )
+            }
+        }
       ];
       
       const rows = [
@@ -113,6 +127,7 @@ export const UserList = () => {
         pageSize={5}
         rowsPerPageOptions={[5]}
         checkboxSelection
+        disableRowSelectionOnClick
       />
     </div>
   )
