@@ -2,6 +2,7 @@ import './userList.scss'
 import { DataGrid } from '@mui/x-data-grid';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import { userRows } from '../../data/data';
+import {Link} from "react-router-dom";
 
 export const UserList = () => {
 
@@ -37,7 +38,9 @@ export const UserList = () => {
             renderCell: (params)=>{
                 return (
                     <>
-                        <button className="userList-edit">Edit</button>
+                        <Link to={'/user/' + params.row.id}>
+                            <button className="userList-edit">Edit</button>
+                        </Link>
                         <DeleteOutlineIcon className='userList-delete'/>
                     </>
                 )
