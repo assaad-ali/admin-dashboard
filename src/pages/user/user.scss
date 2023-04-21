@@ -1,3 +1,21 @@
 .user{
     flex: 4;
+    padding: 20px;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-create-button{
+    width: 90px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(157, 68%, 94%);
+    background-color: hsl(120, 99%, 32%);
+    font-size: 16px;
+    cursor: pointer;
 }
