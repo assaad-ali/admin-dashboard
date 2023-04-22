@@ -31,7 +31,52 @@
     margin-right: 20px;
     box-shadow: 0 4px 6px hsla(0, 0%, 50%, 0.3), 0 1px 3px hsla(0, 0%, 50%, 0.2);
 }
+.user-display-top{
+    display: flex;
+    align-items: center;
 
+    .user-display-img{
+        width: 55px;
+        height: 55px;
+        margin-right: 20px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .top-title{
+        display: flex;
+        flex-direction: column;
+        
+        .display-username{
+            font-weight: 600;
+        }
+
+        .display-title{
+            font-weight: 300;
+        }
+    }
+}
+
+.user-display-bottom{
+    margin-top: 25px;
+
+    .account-details{
+        font-size: 14px;
+        font-weight: 600;
+        color: hsl(0, 1%, 63%);
+    }
+
+    .user-info{
+        margin: 20px 0px;
+        display: flex;
+        align-items: center;
+        color: hsl(0, 0%, 27%);
+    }
+
+    .account-display-icon{
+        margin-right: 10px;
+        font-size: 20px !important;
+    }
+}
 .user-update{
     flex: 2;
     padding: 20px;
