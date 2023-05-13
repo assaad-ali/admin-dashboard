@@ -89,9 +89,10 @@ export const User = () => {
                                 alt=""
                                 className='update-img'
                             />
-                            <label htmlFor="file"><UploadIcon/></label>
+                            <label htmlFor="file"><UploadIcon className='upload-icon'/></label>
                             <input type="file" id="file" style={{display: 'none'}}/>
                         </div>
+                        <button className='update-button'>Update</button>
                     </div>
                 </form>
             </div>
