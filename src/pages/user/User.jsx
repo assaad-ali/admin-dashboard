@@ -18,7 +18,7 @@ export const User = () => {
             <div className="user-display">
                 <div className="user-display-top">
                 <img
-                    src="https://cdn-ajggd.nitrocdn.com/kMoOFpDlsOVtlYJLrnSRNCQXaUFHZPTY/assets/images/optimized/rev-1829ae0/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape.jpeg"
+                    src="https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt=""
                     className='user-display-img'
                 />
@@ -85,7 +85,7 @@ export const User = () => {
                     <div className="update-right">
                         <div className="update-upload">
                             <img 
-                                src="https://cdn-ajggd.nitrocdn.com/kMoOFpDlsOVtlYJLrnSRNCQXaUFHZPTY/assets/images/optimized/rev-1829ae0/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape.jpeg"
+                                src="https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                                 alt=""
                                 className='update-img'
                             />
