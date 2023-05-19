@@ -5,6 +5,7 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import EmailIcon from '@mui/icons-material/Email';
 import GpsFixedIcon from '@mui/icons-material/GpsFixed';
 import UploadIcon from '@mui/icons-material/Upload';
+import { Link } from 'react-router-dom';
 
 
 export const User = () => {
@@ -12,7 +13,9 @@ export const User = () => {
     <div className='user'>
         <div className="title-container">
             <h1 className="user-title">Edit User</h1>
+            <Link to="/newUser">
             <button className="user-create-button">Create</button>
+            </Link>
         </div>
         <div className="user-container">
             <div className="user-display">
