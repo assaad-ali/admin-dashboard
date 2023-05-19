@@ -3,29 +3,33 @@
 export const NewUser = () => {
   return (
     <div className="new-user">
-        <h1 className="new-user-title">New User</h1>
-        <form action="new-user-form">
+        <h1 className="new-user-item">New User</h1>
+        <form className="new-user-form">
             <div className="new-user-item">
                 <label>Username</label>
                 <input type="text" placeholder="Ali" />
             </div>
-            <div className="new-user-title">
+            <div className="new-user-item">
                 <label>Full Name</label>
                 <input type="text" placeholder="Ali Assaad" />
             </div>
-            <div className="new-user-title">
+            <div className="new-user-item">
                 <label>Email</label>
                 <input type="email" placeholder="aliassaad@gmail.com" />
             </div>
-            <div className="new-user-title">
+            <div className="new-user-item">
                 <label>Password</label>
                 <input type="password" placeholder="aliAssaad@94" />
             </div>
-            <div className="new-user-title">
+            <div className="new-user-item">
                 <label>Phone</label>
                 <input type="text" placeholder="+96170220405" />
             </div>
-            <div className="new-user-title">
+            <div className="new-user-item">
+                <label>Address</label>
+                <input type="text" placeholder="New York | USA" />
+            </div>
+            <div className="new-user-item">
                 <label>Gender</label>
                 <div className="new-user-gender">
                     <label htmlFor="male">Male</label>
@@ -42,9 +46,8 @@ export const NewUser = () => {
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                 </select>
-
             </div>
-
+            <button className="create-button">Create</button>
         </form>
     </div>
   )
