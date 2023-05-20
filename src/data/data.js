@@ -125,3 +125,78 @@ export const userData = [
         transaction: '15.00$'
     },
   ];
+
+  export const productRows = [
+    {
+        id: 1,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 2,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 3,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 4,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 5,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 6,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 7,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 8,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+    {
+        id: 9,
+        pic:"https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg",
+        product: "macbook",
+        stock: 30,
+        status: 'Active',
+        price: "$2,500.00"
+    },
+  ];
