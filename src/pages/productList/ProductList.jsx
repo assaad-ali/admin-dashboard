@@ -49,7 +49,7 @@ export const ProductList = () => {
                         <Link to={'/product/' + params.row.id}>
                             <button className="productList-edit">Edit</button>
                         </Link>
-                        <DeleteOutlineIcon className='peoductList-delete' onClick={()=> handleDelete(params.row.id)} />
+                        <DeleteOutlineIcon className='productList-delete' onClick={()=> handleDelete(params.row.id)} />
                     </>
                 )
             }
